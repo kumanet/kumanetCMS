@@ -1,0 +1,761 @@
+﻿/**
+ * ku-ma.net CSS 
+ *
+ * クマネット用のCSS。
+ * パソコン、スマートフォン共通
+ * <br>
+ *
+ * @author Nobuyuki Kumakura
+ * @since 1.0
+ * @version 1.0 
+ * @date 2014/07/03
+ * 
+ * copyright Nobuyuki Kumakura
+ */
+
+
+/* 
+ * BODY用
+ * 
+ */
+ 
+body {
+	color:#006496;
+	font-family:Times New Roman;
+	margin-top:0px;
+	margin-left:0px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+h1,h2{ 
+	font-size:100%;
+	display:inline;
+} 
+
+
+a img {
+	border-style:none;
+}
+
+.logo {
+	background-color:#C8C8FF;
+	/*background:url('../images/haikei.gif');*/
+	height:94px;
+	/*width:993px;*/
+	padding:0px 0px 0px 0px;
+	width:1241px;
+	/*position:relative;*/
+}
+
+.logoTitle {
+	float:left;
+	height:94px;
+	padding:0px 0px 0px 0px;
+	width:260px;
+
+}
+
+/*
+img.logo {
+	height:94px;
+	width:260px; 
+}
+*/
+
+.logoAd {
+	line-height: 0px;
+	float:left;
+	font-size: 0px;
+	height:92px;
+	padding:2px 0px 0px 0px;
+	width:733px;
+	/*width:981px;*/
+}
+
+img.logoAd {
+	vertical-align: bottom;
+}
+
+.logoSearch {
+	float:left;
+	width:248px;
+	position:relative;
+	top:68px;
+}
+
+.linkImg:hover{
+	border-style:none;
+}
+
+img#pagetop {
+	height:94px;
+	width:260px; 
+	padding:0px 0px 0px 0px;
+	vertical-align: bottom;
+}
+
+/* メニューバー */
+/*
+.menubar ,
+.menubar li,
+.menubar a,
+.menubar a:link,
+.menubar a:visited
+{
+	background-color:#99FFFF;	
+}
+*/
+
+
+.menubar {
+	background-color:#99FFFF;
+	color:#006496;
+	font-size:14px;
+	font-weight:bold;
+	line-height:25px; 
+	/* width:993px; */
+}
+
+.menubar ul{
+	/* background-color:#99FFFF; */
+	border-style:solid ;
+	border-color:#99FFFF;
+	/*border-width:1px;*/
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-left-width:7px;
+	border-right-width:1px; 
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.menubar li{
+	background-color:#99FFFF;
+	border-left:1px #99FFFF solid;
+	border-right:1px #99FFFF solid;
+	float:left;
+	height:25px;
+	list-style:none;
+	margin:0;
+	margin-right:0px;
+	padding:0;
+}
+
+.menubar a, .menubar a:link, .menubar a:visited{
+	background-color:#99FFFF;
+	border-left:1px #99FFFF solid;
+	border-right:1px #99FFFF solid;
+	color:#006496;
+	display:block;
+	float:left;
+	height:25px;
+	padding:0px 10px 0px 10px;
+	text-decoration:none;
+
+}
+
+.menubar a:hover{
+	background-color:#C8C8FF;
+	border-left:1px #99FFFF solid;
+	border-right:1px #99FFFF solid;
+	color:#006496;
+	display:block;
+	height:25px;
+}
+
+.menubarSelected{
+	background-color:#C8C8FF;
+	color:#006496;
+	font-size:14px;
+	font-weight:bold;
+	line-height:25px;
+	margin:0;
+	padding:0;
+}
+
+.menubarSelected li{
+	background-color:#C8C8FF;
+	border-top:1px #99FFFF solid;
+	border-bottom:1px #99FFFF solid;
+	float:left;
+	height:25px;
+	list-style:none;
+	margin:0;
+	margin-right:0px;
+	padding:0;
+}
+
+.menubarSelected a, .menubarSelected a:link, .menubarSelected a:visited{
+	background-color:#C8C8FF;
+	border-left:1px #99FFFF solid;
+	border-right:1px #99FFFF solid;
+	color:#006496;
+	display:block;
+	float:left;
+	height:25px;
+	padding:0px 10px 0px 10px;
+	text-decoration:none;
+
+}
+
+/*
+.menubarSelected a:hover{
+	background-color:#99FFFF;
+	border-top:1px #99FFFF solid;
+	border-bottom:1px #99FFFF solid;
+	color:#006496;
+	display:block;
+	height:25px;
+}
+*/
+
+.welcome{
+	background-color:#C8C8FF;
+	/*border-left:8px #99FFFF solid;*/
+	clear:both;
+}
+
+span.welcome{
+	/*border-width:0px;*/
+	color:#006496;
+	font-size:18px;
+	font-weight:bold;
+	position:relative; 
+}
+
+.modified{
+	background-color:#C8C8FF;
+	/*background:url('../images/haikei.gif');*/
+	clear:both;
+}
+
+span.modified{
+	color:#006496;
+	font-weight:bold;
+	position:relative;
+}
+
+.backPagetop {
+	clear:both;
+	color:#006496;
+	font-size:80%;
+	margin-top:0;
+}
+
+.betweenContents{
+	clear:both;
+}
+
+#page{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	/*width:993px;*/
+	width:1241px;
+}
+
+/**
+* ヘッダー関連
+*/
+#header{
+	margin-bottom:10px;
+}
+
+.headerTitleBgGround{
+	background-color:#C8C8FF;
+	clear:both;
+}
+
+.headerTitle {
+	color:#006496;
+	font-size:150%;
+	font-weight:bold;
+}
+
+.headerTitle a, .headerTitle a:link, .headerTitle a:visited{
+	color:#006496;
+	/*text-decoration:none;*/
+}
+
+.headerTitle a:hover{
+	background-color:#C8C8FF;
+	color:#006496;
+}
+
+.headerTitleComment {
+	color:#006496;
+	font-size:85%;
+	font-weight:bold;
+}
+
+/**
+* コンテンツ関連
+*/
+#mainContents{
+	/*width:992px;*/
+	width:1240px;
+}
+
+#mainContents hr{
+	background-color:#c8c8ff;
+	border-color:#c8c8ff;
+	color:#c8c8ff;
+
+}
+
+.contents {
+	color:#006496;
+}
+
+/* 
+ * コンテンツのタイトル
+ */
+.contentsTitle {
+	background-color:#C8C8FF;
+	color:#006496;
+	font-size:120%;
+	font-weight:bold;
+}
+
+/**
+* コンテンツ左側
+*/
+
+#leftContents {
+	/*background-color:#99FFFF;*/
+	float:left;
+	font-size:80%;
+	/*width:190px;*/
+	width:182px;
+}
+
+/*
+#leftContents a, #leftContents a:link, #leftContents a:visited{
+	color:#006496;
+	text-decoration:none;
+}
+*/
+
+/*
+#leftContents a:hover{
+	background-color:#c8c8ff;
+	color:#006496;
+}
+*/
+
+.leftContentsText a, #leftContentsText a:link, #leftContentsText a:visited{
+	color:#006496;
+	text-decoration:none;
+}
+
+.leftContentsText a:hover{
+	background-color:#c8c8ff;
+	color:#006496;
+}
+
+#leftContents hr{
+	background-color:#c8c8ff;
+	border-color:#c8c8ff;
+	color:#c8c8ff;
+}
+
+/**
+* コンテンツ中央
+*/
+
+#centerContents {
+	float:left;
+	/* rightContents300用 */
+	width:756px;
+	/*width:802px;*/
+}
+
+#centerContents a, #centerContents a:link, #centerContents a:visited{
+	color:#006496;
+}
+
+#centerContents a:hover{
+	background-color:#C8C8FF;
+	color:#006496;
+}
+
+#centerContents hr{
+	color:#c8c8ff;
+	background-color:#c8c8ff;
+	border-color:#c8c8ff;
+}
+
+
+/**
+* コンテンツ右側
+*/
+#rightContents {
+	/*background-color:#99FFFF;*/
+	float:right;
+	font-size:95%;
+	width:302px;
+	/*width:256px;*/
+}
+
+/*
+#rightContents a, #rightContents a:link, #rightContents a:visited{
+	color:#006496;
+	text-decoration:none;
+}
+ */
+
+/*
+#rightContents a:hover{
+	background-color:#C8C8FF;
+	color:#006496;
+}
+*/
+
+.rightContentsBanner{
+	margin: 0px 34px 0px 34px;
+	/*text-align:right;*/
+}
+
+.rightContentsText a, #rightContentsText a:link, #rightContentsText a:visited{
+	color:#006496;
+	text-decoration:none;
+}
+
+.rightContentsText a:hover{
+	background-color:#c8c8ff;
+	color:#006496;
+}
+
+#rightContents hr{
+	color:#c8c8ff;
+	background-color:#c8c8ff;
+	border-color:#c8c8ff;
+}
+
+
+/**
+ * フッター関連
+ */
+#footer {
+	clear:both;
+	color:#006496;
+	font-size:95%;
+}
+
+#footer a, #footer a:link, #footer a:visited{
+	color:#006496;
+}
+
+#footer a:hover{
+	/* background-color:#C8C8FF; */
+	color:#006496;
+}
+
+#footer hr{
+	background-color:#c8c8ff;
+	border-color:#c8c8ff;
+	color:#c8c8ff;
+}
+
+/*
+.footer {
+	clear:both;
+	color:#006496;
+	font-size:95%;
+}
+*/
+
+img.footerImg{
+	border:0px;
+	height:40px;
+	width:260px; 
+}
+
+.footerLogo {
+	background-color:#C8C8FF;
+	/*background:url('../images/haikei.gif');*/
+	/*background-image:url('../images/haikei2.gif');*/
+	background-position:left top;
+	background-repeat:repeat-y;
+	height:80px;
+	/*width:993px;*/
+	width:1241px;
+}
+
+.footerLogoImg {
+	float:left;
+	line-height:0px;
+	padding:0px 0px 0px 0px;
+	width:260px;
+}
+
+.footerLogoAd {
+	float:right;
+	padding:2px 0px 0px 0px;
+	/*width:733px;*/
+	width:981px;
+}
+
+/**
+ * コンテンツアイテムの定義
+ */
+.contentsItem {
+	overflow:hidden;
+}
+
+.contentsItemL {
+	color:#006496;
+	float:left;
+	width:377px;
+	/*width:400px;*/
+}
+
+.contentsItemR {
+	color:#006496;
+	float:Right;
+	width:377px;
+	/*width:400px;*/
+}
+
+/**
+ * コンテンツ右側の画像一覧などの定義
+ */
+.contentsItemRight {
+	overflow:hidden;
+	margin: 0px 1px 0px 1px;
+}
+
+.contentsItemRightL {
+	color:#006496;
+	float:left;
+	width:150px;
+}
+
+.contentsItemRightR {
+	color:#006496;
+	float:left;
+	width:150px;
+}
+
+.contentsItemRightGoogle {
+	margin: 0px 1px 0px 1px;
+}
+
+/**
+ * コンテンツ本文中の定義
+ */
+.secret-font {
+	color:#FFFFFF;
+}
+
+.highlit-font{
+	color:#FF0000;
+	font-size:110%;
+}
+
+.strong-font{
+	color:#006496;
+	font-weight:bold;
+}
+
+.underline-font{
+	color:#006496;
+	text-decoration:line-through;
+}
+
+/*
+td.main {
+	background-color:#C8C8FF;
+	border-width:1px;
+	color:#006496;
+}
+*/
+
+/**
+ * info 新着情報の定義
+ */
+dl.infokoushin dt {
+	border-left:solid 9px #99FFFF;
+	clear:left;
+	float:left;
+	margin:0 0 0.5em;
+	width:10em;
+}
+
+dl.infokoushin dd {
+	margin-bottom:0.5em;
+	margin-left:12em;
+}
+
+
+/**
+ * info linkの定義
+ */
+th.infolinkUneven {
+	background-color:#99FFFF;
+	font-weight:normal;
+	height:30px;
+	width:10%;
+}
+
+th.infolinkEven {
+	background-color:#C8C8FF;
+	font-weight:normal;
+	height:30px;
+	width:10%;
+}
+
+td.infolink {
+	font-weight:normal;
+	height:20px;
+	width:10%;
+}
+
+
+/**
+ * RSSの定義
+ */
+dl.rssList dt {
+	border-left:solid 9px #99FFFF;
+	clear:left;
+	float:left;
+	margin:0 0 1.5em;
+	width:15em;
+}
+
+dl.rssList dd {
+	margin-bottom:1.5em;
+	margin-left:17em;
+}
+
+/**
+ * 外部サイトの情報を利用するときの定義
+ */
+iframe.googlemap {
+	height:600px; 
+	width:754px;
+	/*width:800px;*/
+	border:0px;
+	overflow:hidden;
+	margin:0px;
+}
+
+iframe.youtube {
+	height:360px; 
+	width:640px;
+	border:0px;
+}
+
+
+/* 
+ * 画像サイズの定義
+*/
+img.ftvga {
+	height:300px;
+	width:400px;
+}
+
+img.ftvgaTurn {
+	height:400px;
+	width:300px;
+}
+
+img.svga {
+	height:564px;
+	width:752px;
+}
+
+/*
+img.svga {
+	height:600px;
+	width:800px;
+}
+*/
+
+img.svgaTurn {
+	height:800px;
+	width:600px;
+}
+
+
+img.svgaFilm {
+	height:502px;
+	width:753px;
+}
+
+/*
+img.svgaFilm {
+	height:533px;
+	width:800px;
+}
+*/
+
+img.svgaFilmTurn {
+	height:900px;
+	width:600px;
+}
+
+img.qvga {
+	height:240px;
+	width:320px;
+}
+
+img.qvgaTurn {
+	height:320px;
+	width:240px;
+}
+
+img.qvgaFilm {
+	height:213px;
+	width:320px;
+}
+
+img.qvgaFilmTurn {
+	height:360px;
+	width:240px;
+}
+
+img.vga {
+	height:480px;
+	width:640px;
+}
+
+img.vgaTurn {
+	height:640px;
+	width:480px;
+}
+
+img.rectangleSizePhoto {
+	height:135px;
+	width:180px;
+}
+
+img.bannerHalfBanner {
+	height:60px;
+	width:234px;
+}
+
+img.bannerListThumbnail {
+	height:75px;
+	width:100px;
+}
+
+img.bannerListNaviThumbnail {
+	height:113px;
+	width:150px;
+}
+
+/* 
+* ku-ma.net専用CSS
+*/
+
+.menubarOutside {
+	color:#006496;
+	font-size:83%;
+	font-weight:bold;
+}
+
