@@ -1,0 +1,141 @@
+﻿/**
+ * ku-ma.net CMS 
+ *
+ * クマネット用のCSS。
+ * パソコン、スマートフォン共通
+ * <br>
+ * ボディの定義
+ * <br>
+ * 
+ *
+ * @author Nobuyuki Kumakura
+ * @since 2014/08/24
+ * @version 1.1 
+ * @date 2014/08/24
+ * 
+ * copyright Nobuyuki Kumakura
+ */
+
+/**
+ * BODY用CSS
+ * 
+ * @cssctag　body
+ * 
+ * @property font-family
+ * @property margin センタリング用
+ * @property margin-left センタリング用
+ * @property margin-right センタリング用
+ * @property padding センタリング用
+ * @property text-align センタリング用
+ * @property width deprecated センタリング用
+ * @property width
+
+
+ * 
+ * @since 2014/08/24
+ * @version 1.1 
+ */
+body{
+	font-family:Times New Roman;
+	margin:0px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	text-align:left;
+	/*width:993px;*/
+	width:1241px;
+}
+
+/**
+ * BODY用見出し
+ * 
+ * @cssctag　h1
+ * @cssctag　h2
+ * @cssctag　h3
+ * @cssctag　h4
+ * @cssctag　h5
+ * @cssctag　h6
+ * 
+ * @property font-size サイズを本文と同一にする
+ * @property display
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{ 
+	font-size:100%;
+	display:inline;
+} 
+
+/**
+ * 画像リンクの枠線除去
+ * 
+ * @cssctag　a img
+ * 
+ * @property border-style
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+a img{
+	border-style:none;
+}
+
+/**
+*BODYタグ以下にかかるもの
+*/
+/**
+ * backPagetop
+ * 
+ * @cssclass　backPagetop
+ * 
+ * @property clear
+ * @property font-size
+ * @property margin-top
+ * 
+ * @since 2014/08/24
+ * @version 1.1 
+ */
+.backPagetop{
+	clear:both;
+	font-size:80%;
+	margin-top:0;
+}
+
+/**
+ * betweenContents
+ * 
+ * @cssclass　betweenContents
+ * 
+ * @property clear
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+.betweenContents{
+	clear:both;
+}
+
+/**
+ * スマートフォン画面へ
+ * 
+ * @cssid　responsiveHeader
+ * 
+ * @property clear
+ * 
+ * @since 2014/11/04
+ * @version 1.0 
+ */
+#responsiveHeader{
+	font-size:35px;
+	height:75px;
+	line-height:75px;
+	width:1241px;
+	margin:0;
+	text-align: center;
+}
