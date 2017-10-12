@@ -1,0 +1,439 @@
+﻿/**
+ * ku-ma.net CMS 
+ *
+ * クマネット用のCSS。
+ * パソコン、スマートフォン共通
+ * <br>
+ * コンテンツの定義
+ * <br>
+ * 
+ *
+ * @author Nobuyuki Kumakura
+ * @since 2014/08/24
+ * @version 1.2 
+ * @date 2015/09/15
+ * 
+ * copyright Nobuyuki Kumakura
+ */
+
+/**
+ * コンテンツ中央
+ * 
+ * @cssid　centerContents
+ * 
+ * @property float
+ * @property width コンテンツ右側rightContentsを300ピクセルに拡大するため、コンテンツ中央を縮小する
+ * @property width deprecated コンテンツ右側rightContentsを300ピクセルに拡大するため、大きすぎるコンテンツ中央をコメントアウトする
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+#centerContents{
+	float:left;
+	width:756px;
+	/*width:802px;*/
+}
+
+/**
+ * コンテンツ中央　a
+ * 
+ * @cssid　centerContents a
+ * @cssid　centerContents a:link
+ * @cssid　centerContents a:visited
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+#centerContents a, 
+#centerContents a:link, 
+#centerContents a:visited{
+}
+
+/**
+ * コンテンツ中央　a hover
+ * 
+ * @cssid　centerContents a:hover
+ * 
+ * 
+ * @since 2014/08/26
+ * @version 1.1
+ */
+#centerContents a:hover{
+}
+
+/**
+ * コンテンツ
+ * 
+ * @cssclass　contents
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.contents{
+}
+
+/**
+ * コンテンツアイテム
+ * 
+ * @cssclass　contentsItem
+ * 
+ * @property overflow
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.contentsItem{
+	overflow:hidden;
+}
+
+/**
+ * コンテンツアイテム左側
+ * 
+ * @cssclass　contentsItemL
+ * 
+ * @property float
+ * @property line-height 画像の下部隙間をなくす
+ * @property width コンテンツ右側rightContentsを300ピクセルに拡大するためコンテンツを縮小する
+ * @property width deprecated コンテンツ右側rightContentsを300ピクセルに拡大するためコメントアウトする
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.contentsItemL{
+	float:left;
+	width:377px;
+	/*width:400px;*/
+}
+
+/**
+ * コンテンツアイテム左側 画像
+ * 
+ * @cssclass　contentsItemR img
+ * 
+ * @property margin
+ * @property padding
+ * @property vertical-align 画像の下部隙間をなくす
+ * 
+ * @since 2014/09/21
+ * @version 1.0
+ */
+.contentsItemL img{
+	margin:0;
+	padding:0;
+	vertical-align:bottom;
+}
+
+/**
+ * コンテンツアイテム右側
+ * 
+ * @cssclass　contentsItemR
+ * 
+ * @property float
+ * @property line-height 画像の下部隙間をなくす
+ * @property width コンテンツ右側rightContentsを300ピクセルに拡大するためコンテンツを縮小する
+ * @property width deprecated コンテンツ右側rightContentsを300ピクセルに拡大するためコメントアウトする
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.contentsItemR{
+	float:Right;
+	width:377px;
+	/*width:400px;*/
+}
+
+/**
+ * コンテンツアイテム右側 画像
+ * 
+ * @cssclass　contentsItemR img
+ * 
+ * @property margin
+ * @property padding
+ * @property vertical-align 画像の下部隙間をなくす
+ * 
+ * @since 2014/09/21
+ * @version 1.0
+ */
+.contentsItemR img{
+	margin:0;
+	padding:0;
+	vertical-align:bottom;
+}
+
+/**
+ * コンテンツ右側コンテンツアイテム
+ *  
+ * @cssclass　contentsItemRight
+ * 
+ * @property overflow
+ * @property margin
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.contentsItemRight{
+	overflow:hidden;
+	margin: 0px 1px 0px 1px;
+}
+
+/**
+ * コンテンツ右側コンテンツアイテム左
+ * 
+ * @cssclass　contentsItemRightL
+ * 
+ * @property float
+ * @property line-height 画像の下部隙間をなくす
+ * @property width
+ * 
+ * @since 2014/09/21
+ * @version 1.2
+ */
+.contentsItemRightL{
+	float:left;
+	line-height:0;
+	width:150px;
+}
+
+/**
+ * コンテンツ右側コンテンツアイテム右
+ * 
+ * @cssiclass　contentsItemRightR
+ * 
+ * @property float
+ * @property line-height 画像の下部隙間をなくす
+ * @property width
+ * 
+ * @since 2014/09/21
+ * @version 1.2
+ */
+.contentsItemRightR{
+	float:left;
+	line-height:0;
+	width:150px;
+}
+
+/**
+ * コンテンツ前の記事次の記事 img
+ * 
+ * @cssid　contentsPrevNext
+ * 
+ * @property vertical-alig
+ * 
+ * @since 2015/09/15
+ * @version 1.0
+ */
+#contentsPrevNext img{
+	vertical-align:middle;
+}
+
+/**
+ * コンテンツ前の記事次の記事 ul
+ * 
+ * @cssid　contentsPrevNext
+ * 
+ * @property list-style-type　なし
+ * @property margin
+ * @property padding
+ * 
+ * @since 2015/09/15
+ * @version 1.0
+ */
+#contentsPrevNext ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+/**
+ * コンテンツ同一撮影日別記事一覧 img
+ * 
+ * @cssid　contentsSamePhotoList
+ * 
+ * @property vertical-align
+ * 
+ * @since 2014/11/3
+ * @version 1.0
+ */
+#contentsRelatedList img{
+	vertical-align:middle;
+}
+
+/**
+ * コンテンツ同一撮影日別記事一覧 ul
+ * 
+ * @cssid　contentsSamePhotoList
+ * 
+ * @property list-style-type　なし
+ * @property margin
+ * @property padding
+ * 
+ * @since 2014/11/3
+ * @version 1.0
+ */
+#contentsRelatedList ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+/**
+ * コンテンツ同一撮影日別記事一覧 img
+ * 
+ * @cssid　contentsSamePhotoList
+ * 
+ * @property vertical-align
+ * 
+ * @since 2014/11/3
+ * @version 1.0
+ */
+#contentsSamePhotoList img{
+	vertical-align:middle;
+}
+
+/**
+ * コンテンツ同一撮影日別記事一覧 ul
+ * 
+ * @cssid　contentsSamePhotoList
+ * 
+ * @property list-style-type　なし
+ * @property margin
+ * @property padding
+ * 
+ * @since 2014/11/3
+ * @version 1.0
+ */
+#contentsSamePhotoList ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+/**
+ * コンテンツのタイトル
+ * 
+ * @cssclass　contentsTitle
+ * 
+ * @property font-size
+ * @property font-weight
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+.contentsTitle{
+	font-size:120%;
+	font-weight:bold;
+	margin-bottom:1px;
+}
+
+/**
+ * コンテンツ左側
+ * 
+ * @cssid　leftContents
+ * 
+ * @property float
+ * @property font-size deprecated
+ * @property width deprecated
+ * @property width
+ * 
+ * @since 2014/09/15
+ * @version 1.1 
+ */
+#leftContents{
+	float:left;
+	/*font-size:80%;*/
+	/*width:190px;*/
+	width:182px;
+}
+
+/**
+ * コンテンツ左側 a
+ * 
+ * @cssclass　leftContentsText a
+ * @cssclass　leftContentsText a:link
+ * @cssclass　leftContentsText a:visited
+ * 
+ * @property text-decoration
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.leftContentsText a,
+.leftContentsText a:link, 
+.leftContentsText a:visited{
+	text-decoration:none;
+}
+
+/**
+ * コンテンツ左側 a hover
+ * 
+ * @cssclass　leftContentsText a:hover
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.leftContentsText a:hover{
+}
+
+
+/**
+ * コンテンツ右側
+ * 
+ * @cssid　rightContents
+ * 
+ * @property float
+ * @property font-size
+ * @property width
+ * @property width deprecated 拡大のためコメントアウトする
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+#rightContents{
+	float:right;
+	font-size:95%;
+	width:302px;
+	/*width:256px;*/
+}
+
+/**
+ * コンテンツ右側 コンテンツバナー用
+ * 
+ * @cssclass　rightContentsBanner
+ * 
+ * @property margin
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+.rightContentsBanner{
+	margin: 0px 34px 0px 34px;
+}
+
+/**
+ * コンテンツ右側 テキスト用 a
+ * 
+ * @cssclass　rightContentsText a
+ * @cssclass　rightContentsText a:link
+ * @cssclass　rightContentsText a:visited
+ * 
+ * @property text-decoration
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.rightContentsText a,
+.rightContentsText a:link,
+.rightContentsText a:visited{
+	text-decoration:none;
+}
+
+/**
+ * コンテンツ右側 テキスト用 a hover
+ * 
+ * @cssclass rightContentsText a:hover
+ * 
+ * @since 2014/08/26
+ * @version 1.1 
+ */
+.rightContentsText a:hover{
+}
