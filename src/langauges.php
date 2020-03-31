@@ -8,7 +8,7 @@
  *
  * @author Nobuyuki Kumakura
  * @date 2017/03/23
- * @since 2014/09/10
+ * @since 2014/09/10 
  * @version 1.9
  * 
  * copyright Nobuyuki Kumakura
