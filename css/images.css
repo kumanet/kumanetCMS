@@ -1,0 +1,314 @@
+﻿/**
+ * ku-ma.net CMS 
+ *
+ * クマネット用のCSS。
+ * パソコン、スマートフォン共通
+ * <br>
+ * 画像サイズの定義
+ * <br>
+ *
+ * @author Nobuyuki Kumakura
+ * @since 2014/08/24
+ * @version 1.0 
+ * @date 2014/08/24
+ * 
+ * copyright Nobuyuki Kumakura
+ */
+
+/**
+ * 画像をFTVGAサイズにする
+ * 
+ * @cssclass　img.ftvga
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.ftvga{
+	height:300px;
+	width:400px;
+}
+
+/**
+ * 画像をFTVGA縦サイズにする
+ * 
+ * @cssclass　img.ftvgaTurn
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.ftvgaTurn{
+	height:400px;
+	width:300px;
+}
+
+/**
+ * 画像をSVGAサイズにする
+ * <br>
+ * コンテンツ右側rightContentsを300ピクセルに拡大するため本文中の画像を縮小する
+ * 
+ * @cssclass　img.svga
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.svga{
+	height:564px;
+	width:752px;
+}
+
+/**
+ * 画像をSVGAサイズにする
+ * 
+ * @cssclass　img.svga
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ * @deprecated コンテンツ右側rightContentsを300ピクセルに拡大するため、大きすぎる画像定義はコメントアウトする。
+ */
+/*
+img.svga{
+	height:600px;
+	width:800px;
+}
+*/
+
+/**
+ * 画像をSVGA縦サイズにする
+ * 
+ * @cssclass　img.svgaTurn
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.svgaTurn{
+	height:800px;
+	width:600px;
+}
+
+/**
+ * 画像をSVGAの35mmフィルム画角サイズにする
+ * <br>
+ * コンテンツ右側rightContentsを300ピクセルに拡大するため本文中の画像を縮小する。
+ * 
+ * @cssclass　img.svgaFilm
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.svgaFilm{
+	height:502px;
+	width:753px;
+}
+
+/**
+ * 画像をSVGAの35mmフィルム画角サイズにする
+ * 
+ * @cssclass　img.svgaFilm
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ * @deprecated　コンテンツ右側rightContentsを300ピクセルに拡大するため、大きすぎる画像定義はコメントアウトする。
+ */
+/*
+img.svgaFilm{
+	height:533px;
+	width:800px;
+}
+*/
+
+/**
+ * 画像をSVGAの35mmフィルム画角縦サイズにする
+ * 
+ * @cssclass　img.svgaFilmTurn
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.svgaFilmTurn{
+	height:900px;
+	width:600px;
+}
+
+/**
+ * 画像をQVGAサイズにする
+ * 
+ * @cssclass　img.qvga
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.qvga{
+	height:240px;
+	width:320px;
+}
+
+/**
+ * 画像をQVGA縦サイズにする
+ * 
+ * @cssclass　img.qvgaTurn
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.qvgaTurn{
+	height:320px;
+	width:240px;
+}
+
+/**
+ * 画像をQVGAの35mmフィルム画角サイズにする
+ * 
+ * @cssclass　img.qvgaFilm
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.qvgaFilm{
+	height:213px;
+	width:320px;
+}
+
+/**
+ * 画像をQVGAの35mmフィルム画角縦サイズにする
+ * 
+ * @cssclass　img.qvgaFilmTurn
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.qvgaFilmTurn{
+	height:360px;
+	width:240px;
+}
+
+/**
+ * 画像をVGAサイズにする
+ * 
+ * @cssclass　img.vga
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.vga{
+	height:480px;
+	width:640px;
+}
+
+/**
+ * 画像をVGAの縦サイズにする
+ * 
+ * @cssclass　img.vgaTurn
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.vgaTurn{
+	height:640px;
+	width:480px;
+}
+
+/**
+ * 画像を一覧表示用の長方形サイズにする
+ * 
+ * @cssclass　img.rectangleSizePhoto
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.rectangleSizePhoto{
+	height:135px;
+	width:180px;
+}
+
+/**
+ * バナーサイズの画像用にする
+ * 
+ * @cssclass　img.bannerHalfBanner
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.bannerHalfBanner{
+	height:60px;
+	width:234px;
+}
+
+/**
+ * 画像を一覧表示用の小型バナーサイズにする
+ * 
+ * @cssclass　img.bannerListThumbnail
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.bannerListThumbnail{
+	height:75px;
+	width:100px;
+}
+
+/**
+ * 画像を一覧表示用のバナーサイズにする
+ * 
+ * @cssclass　img.bannerListNaviThumbnail
+ * 
+ * @property height
+ * @property width
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+img.bannerListNaviThumbnail{
+	height:113px;
+	width:150px;
+}
