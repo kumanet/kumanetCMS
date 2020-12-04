@@ -1,0 +1,74 @@
+﻿@charset"UTF-8";
+/**
+ * ku-ma.net CMS 
+ *
+ * クマネット用のCSS。
+ * パソコン、スマートフォン共通
+ * <br>
+ * コンテンツ本文の定義
+ * <br>
+ * 
+ * @author Nobuyuki Kumakura
+ * @since 2014/08/24
+ * @version 1.0 
+ * @date 2014/08/24
+ * 
+ * copyright Nobuyuki Kumakura
+ */
+
+/**
+ * 隠し文字
+ * 
+ * @cssclass　secret-font
+ * 
+ * @property color 白色
+  * @since 2014/08/24
+ * @version 1.0 
+ */
+.secret-font{
+	color:#FFFFFF;
+}
+
+/**
+ * 赤文字
+ * 
+ * @cssclass　highlit-font
+ * 
+ * @property color 赤色
+ * @property font-size
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+.highlit-font{
+	color:#FF0000;
+	font-size:110%;
+}
+
+/**
+ * 強調文字
+ * 
+ * @cssclass　strong-font
+ * 
+ * @property font-weight
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+.strong-font{
+	font-weight:bold;
+}
+
+/**
+ * 取り消し線
+ * 
+ * @cssclass　underline-font
+ * 
+ * @property text-decoration
+ * 
+ * @since 2014/08/24
+ * @version 1.0 
+ */
+.underline-font{
+	text-decoration:line-through;
+}
